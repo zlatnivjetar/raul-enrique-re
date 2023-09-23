@@ -70,7 +70,7 @@ const REBUILD = () => {
               <img
                 className={styles.buyerImgIcon}
                 alt=""
-                src="/image-15@2x.jpg"
+                src="/image-15@2x.webp"
               />
               <h3 className={styles.iAmAContainer}>
                 <span>I am a</span>
@@ -90,7 +90,7 @@ const REBUILD = () => {
               <img
                 className={styles.buyerImgIcon}
                 alt=""
-                src="/sellerimg@2x.jpg"
+                src="/sellerimg@2x.webp"
               />
               <h3 className={styles.iAmAContainer}>
                 <span>{`I am a `}</span>
@@ -130,7 +130,7 @@ const REBUILD = () => {
                 className={styles.image8Icon}
                 loading="lazy"
                 alt=""
-                src="/image-8@2x.jpg"
+                src="/image 8.webp"
               />
               <h3 className={styles.modernHouse}>Modern House</h3>
               <div className={styles.buyingANew1}>
@@ -168,7 +168,7 @@ const REBUILD = () => {
               </button>
             </div>
             <div className={styles.featureCard}>
-              <img className={styles.image8Icon} alt="" src="/image-9@2x.png" />
+              <img className={styles.image8Icon} alt="" src="/image-9@2x.webp" />
               <h3 className={styles.modernHouse}>I am a Buyer...</h3>
               <div className={styles.buyingANew1}>
                 Buying a new home is an exciting and important decision, and I
@@ -208,7 +208,7 @@ const REBUILD = () => {
               <img
                 className={styles.image14Icon}
                 alt=""
-                src="/image-14@2x.png"
+                src="/image-14@2x.webp"
               />
               <h3 className={styles.modernHouse}>I am a Buyer...</h3>
               <div className={styles.buyingANew1}>
@@ -369,7 +369,7 @@ const REBUILD = () => {
           </div>
         </div>
       </section>
-      <section className={styles.contact}>
+      <section className={styles.proof}>
         <div className={styles.container5}>
           <h2 className={styles.whatDoMy}>Contact info</h2>
           <div className={styles.contactWrap}>
@@ -568,7 +568,7 @@ const REBUILD = () => {
       </section>
       <section className={styles.cta}>
         <img className={styles.ctaChild} alt="" src="/rectangle-155.svg" />
-        <img className={styles.ctaItem} alt="" src="/rectangle-154@2x.png" />
+        <img className={styles.ctaItem} alt="" src="/rectangle-154@2x.svg" />
         <div className={styles.container7}>
           <div className={styles.ctaContent}>
             <div className={styles.ctaTitle}>

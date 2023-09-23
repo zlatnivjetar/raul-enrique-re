@@ -13,14 +13,14 @@
   width: 100%;
   object-fit: cover;
   bottom: 0;
+  left: 0;
 }
 .yellow50Icon {
-  height: 360px;
+  width: 100%;
   opacity: 0.25;
   z-index: 2;
 }
 .yellowMainIcon {
-  height: 320px;
   z-index: 0;
 }
 .heroChild {
@@ -37,8 +37,7 @@
 }
 .logo1Icon {
   position: relative;
-  width: 243px;
-  height: 92px;
+  width: 180px;
   object-fit: cover;
 }
 .buyers,
@@ -47,7 +46,7 @@
   letter-spacing: 0.02em;
 }
 .speakWithMe {
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-5xl);
   font-family: var(--font-lato);
   color: var(--dark-text);
   text-align: left;
@@ -76,7 +75,7 @@
   justify-content: flex-start;
   gap: var(--gap-21xl);
   text-align: left;
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-5xl);
   color: var(--light-text);
   font-family: var(--font-lato);
 }
@@ -93,9 +92,9 @@
   overflow: hidden;
   display: flex;
   flex-direction: row;
+  padding: var(--padding-xl) 0;
   align-items: center;
   justify-content: space-between;
-  padding: var(--padding-xl) 0;
 }
 .topRatedRealtorContainer1 {
   line-break: anywhere;
@@ -119,12 +118,12 @@
 }
 .letMeBe {
   margin: 0;
-  font-size: var(--font-size-9xl);
+  font-size: var(--font-size-13xl);
   line-height: 120%;
   width: 660px;
 }
 .letsTalk {
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-5xl);
   font-family: var(--font-lato);
   color: var(--dark-text);
   text-align: center;
@@ -183,7 +182,7 @@
   width: 3px;
 }
 .russellSage {
-  font-size: 32px;
+  font-size: var(--font-size-17xl);
   letter-spacing: 0.02em;
   line-height: 120%;
   display: flex;
@@ -196,11 +195,11 @@
 .heroQuote {
   display: flex;
   flex-direction: row;
+  padding: 0 0 var(--padding-61xl);
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-61xl);
   gap: var(--gap-xl);
-  font-size: var(--font-size-9xl);
+  font-size: var(--font-size-13xl);
   color: var(--dark-text);
 }
 .container {
@@ -209,10 +208,10 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
   max-width: 1500px;
   z-index: 4;
 }
@@ -230,7 +229,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-5xl);
-  background-image: url(/hero@3x.png);
+  background-image: url(/hero@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -256,7 +255,7 @@
 .whetherYouAre {
   margin: 0;
   position: relative;
-  font-size: var(--font-size-9xl);
+  font-size: var(--font-size-13xl);
   letter-spacing: 0.02em;
   line-height: 120%;
   text-align: center;
@@ -317,9 +316,9 @@
   width: 265px;
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
   gap: var(--gap-3xs);
 }
 .helpCard {
@@ -354,8 +353,8 @@
   background-color: var(--dark-bg);
   width: 265px;
   flex-direction: row;
-  justify-content: center;
   box-sizing: border-box;
+  justify-content: center;
   gap: var(--gap-3xs);
 }
 .helpCard1,
@@ -386,19 +385,19 @@
 .container1 {
   flex: 1;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-41xl);
   max-width: 1500px;
 }
 .help {
   align-self: stretch;
   flex-direction: row;
+  padding: var(--padding-81xl) 0;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-81xl) 0;
   text-align: left;
   font-size: var(--font-size-37xl);
   color: var(--dark-text);
@@ -539,9 +538,9 @@
   overflow: hidden;
   flex-shrink: 0;
   flex-direction: column;
-  align-items: flex-start;
   padding: var(--padding-11xl) var(--padding-xl);
   box-sizing: border-box;
+  align-items: flex-start;
   gap: var(--gap-xl);
 }
 .siliconValleyCalifornia1 {
@@ -606,9 +605,9 @@
   box-shadow: var(--feature-card-shadow);
   display: flex;
   flex-direction: row;
+  padding: var(--padding-11xl);
   align-items: center;
   justify-content: center;
-  padding: var(--padding-11xl);
 }
 .vectorIcon4,
 .vectorIcon5 {
@@ -634,9 +633,9 @@
 .button9 {
   background-color: var(--yellow-main);
   box-shadow: var(--feature-card-shadow);
+  padding: var(--padding-11xl);
   align-items: center;
   justify-content: center;
-  padding: var(--padding-11xl);
 }
 .featuredArrowsWrap {
   align-self: stretch;
@@ -650,10 +649,10 @@
 }
 .container2 {
   width: 100%;
-  align-items: flex-start;
-  justify-content: flex-start;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-41xl);
   max-width: 1500px;
 }
@@ -661,9 +660,9 @@
   align-self: stretch;
   background-color: var(--dark-bg);
   overflow: hidden;
+  padding: var(--padding-81xl) 0;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-81xl) 0;
   text-align: left;
   font-size: var(--font-size-37xl);
   color: var(--light-text);
@@ -707,18 +706,18 @@
 }
 .container3 {
   width: 100%;
-  align-items: flex-start;
-  justify-content: flex-start;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   max-width: 1500px;
 }
 .banner {
   align-self: stretch;
+  padding: var(--padding-81xl) 0;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-81xl) 0;
-  background-image: url(/banner@3x.png);
+  background-image: url(/banner@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -781,10 +780,10 @@
 }
 .container4 {
   width: 100%;
-  align-items: flex-start;
-  justify-content: flex-start;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   max-width: 1500px;
 }
 .proof,
@@ -796,11 +795,11 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  padding: var(--padding-81xl) 0;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-81xl) 0;
   text-align: center;
-  font-size: var(--font-size-17xl);
+  font-size: var(--font-size-37xl);
   color: var(--dark-text);
   font-family: var(--font-lato);
 }
@@ -836,6 +835,7 @@
   justify-content: center;
   gap: var(--gap-xl);
   text-align: center;
+  font-size: var(--font-size-17xl);
 }
 .cBrown,
 .mrRaulWas {
@@ -845,7 +845,6 @@
 }
 .mrRaulWas {
   align-self: stretch;
-  font-size: var(--font-size-xl);
 }
 .cBrown {
   font-weight: 600;
@@ -867,7 +866,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  font-size: var(--font-size-5xl);
 }
 .testimonialCard {
   flex: 1;
@@ -876,9 +874,9 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  padding: var(--padding-11xl) var(--padding-21xl);
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-11xl) var(--padding-21xl);
   gap: var(--gap-xl);
 }
 .incredibleService {
@@ -901,19 +899,19 @@
   justify-content: flex-start;
   gap: var(--gap-xl);
   text-align: center;
+  font-size: var(--font-size-17xl);
 }
 .aWhiteParent,
 .reviewsWrap {
   align-self: stretch;
   justify-content: space-between;
-  font-size: var(--font-size-5xl);
 }
 .reviewsWrap {
   align-items: flex-start;
   justify-content: flex-start;
   gap: 80px;
   text-align: left;
-  font-size: var(--font-size-17xl);
+  font-size: var(--font-size-5xl);
 }
 .container5,
 .reviews {
@@ -922,10 +920,10 @@
 }
 .container5 {
   width: 100%;
-  align-items: flex-start;
-  justify-content: flex-start;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: var(--gap-41xl);
   max-width: 1500px;
 }
@@ -933,9 +931,9 @@
   align-self: stretch;
   background-color: #ededed;
   overflow: hidden;
+  padding: var(--padding-81xl) 0;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-81xl) 0;
   text-align: center;
   font-size: var(--font-size-37xl);
   color: var(--dark-text);
@@ -975,7 +973,7 @@
 .fillYourContact,
 .iAmLooking {
   position: relative;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-5xl);
   letter-spacing: 0.02em;
   line-height: 140%;
   font-family: var(--font-lato);
@@ -994,7 +992,7 @@
   height: 20px;
 }
 .buy {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-5xl);
   letter-spacing: 0.02em;
   line-height: 140%;
   font-weight: 600;
@@ -1068,7 +1066,7 @@
 .iAgreeWithContainer,
 .submit1 {
   position: relative;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-5xl);
   color: var(--dark-text);
 }
 .iAgreeWithContainer {
@@ -1109,15 +1107,15 @@
 .submitWrap {
   align-self: stretch;
   flex-direction: row;
-  justify-content: space-between;
   padding: var(--padding-11xl) 0 0;
+  justify-content: space-between;
 }
 .form {
   background-color: var(--color-gray-100);
   box-shadow: var(--feature-card-shadow);
   flex-direction: column;
-  justify-content: flex-start;
   padding: var(--padding-21xl);
+  justify-content: flex-start;
   gap: var(--gap-xl);
 }
 .lookingForA,
@@ -1133,6 +1131,7 @@
   font-family: inherit;
 }
 .youCanContact {
+  font-size: var(--font-size-5xl);
   line-height: 140%;
   display: flex;
   align-items: center;
@@ -1165,9 +1164,9 @@
   align-self: stretch;
   display: flex;
   flex-direction: column;
+  padding: 0 0 var(--padding-3xs);
   align-items: center;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-3xs);
   font-size: var(--font-size-17xl);
 }
 .tenmileRoad02199 {
@@ -1259,54 +1258,39 @@
   align-self: stretch;
   display: flex;
   flex-direction: column;
+  padding: 0 0 var(--padding-3xs);
   align-items: center;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-3xs);
   font-size: var(--font-size-17xl);
+}
+.contactWrap,
+.locationsWrap {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
 }
 .locationsWrap {
   flex: 1;
   overflow: hidden;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
   padding: var(--padding-xl);
+  justify-content: center;
   gap: var(--gap-xl);
-}
-.contact,
-.contactWrap,
-.locationsWrap {
-  align-self: stretch;
-  display: flex;
 }
 .contactWrap {
   flex-direction: row;
-  align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-81xl);
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.contact {
-  background-color: var(--light-text);
-  overflow: hidden;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-81xl) 0;
-  text-align: center;
-  font-size: var(--font-size-37xl);
-  color: var(--dark-text);
-  font-family: var(--font-lato);
-}
 .ctaChild,
 .ctaItem {
   position: absolute;
   margin: 0 !important;
-  top: 0;
+  bottom: 0;
   left: 0;
-  width: 1920px;
-  height: 288px;
+  width: 100%;
   z-index: 0;
 }
 .ctaItem {
@@ -1337,7 +1321,6 @@
   color: var(--light-text);
   text-align: left;
   align-items: center;
-  width: 265px;
   flex-shrink: 0;
 }
 .button10,
@@ -1351,13 +1334,13 @@
   border: 3px solid var(--light-text);
   padding: 25px var(--padding-31xl);
   background-color: var(--dark-bg);
-  justify-content: flex-start;
+  justify-content: center;
 }
 .ctaContent {
   align-self: stretch;
   overflow: hidden;
-  justify-content: space-between;
   padding: var(--padding-xl) 0 0;
+  justify-content: space-between;
 }
 .container7,
 .cta {
@@ -1369,24 +1352,25 @@
   width: 100%;
   height: 188px;
   flex-shrink: 0;
-  align-items: flex-start;
-  justify-content: flex-start;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
   max-width: 1500px;
   z-index: 2;
 }
 .cta {
   align-self: stretch;
   background-color: var(--light-text);
+  padding: var(--padding-81xl) 0 0;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-81xl) 0 0;
   position: relative;
   text-align: center;
   font-size: var(--font-size-37xl);
   color: var(--dark-text);
   font-family: var(--font-lato);
+  overflow: visible;
 }
 .logo1Icon1 {
   position: relative;
@@ -1521,9 +1505,9 @@
   height: 70px;
   display: flex;
   flex-direction: column;
+  padding: var(--padding-xl);
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-xl);
 }
 .email1,
 .newsletterWrapper {
@@ -1534,9 +1518,9 @@
   border-radius: var(--br-8xs);
   border: 2px solid var(--light-text);
   flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
   align-items: center;
   justify-content: space-between;
-  padding: 0 0 0 var(--padding-xl);
   color: var(--color-gray-200);
 }
 .newsletterWrapper {
@@ -1560,10 +1544,10 @@
 }
 .footer {
   flex-direction: column;
+  padding: var(--padding-81xl) 0 var(--padding-61xl);
   align-items: center;
   justify-content: center;
-  padding: var(--padding-81xl) 0 var(--padding-61xl);
-  background-image: url(/footer@3x.png);
+  background-image: url(/footer@3x.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1586,10 +1570,10 @@
 }
 .container9 {
   width: 100%;
-  align-items: center;
-  justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
   max-width: 1500px;
 }
 .container9,
@@ -1602,9 +1586,9 @@
 .subfooter {
   align-self: stretch;
   background-color: #131a20;
+  padding: var(--padding-21xl) 0;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-21xl) 0;
 }
 .reBuild {
   position: relative;
@@ -1648,7 +1632,7 @@
     width: 600px;
   }
   .letMeBe {
-    font-size: var(--font-size-5xl);
+    font-size: var(--font-size-6xl);
     width: 60%;
   }
   .letsTalk {
@@ -1676,7 +1660,7 @@
     padding-bottom: var(--padding-21xl);
   }
   .realEstateIs {
-    font-size: var(--font-size-5xl);
+    font-size: var(--font-size-6xl);
     width: 500px;
   }
   .russellSage {
@@ -1703,7 +1687,7 @@
     font-size: var(--font-size-29xl);
   }
   .whetherYouAre {
-    font-size: var(--font-size-5xl);
+    font-size: var(--font-size-6xl);
   }
   .iAmAContainer {
     font-size: var(--font-size-11xl);
@@ -1912,15 +1896,11 @@
   .contactWrap {
     gap: var(--gap-41xl);
   }
-  .contact {
-    padding: var(--padding-61xl) 0;
-    box-sizing: border-box;
-  }
   .speakWithMe4 {
     font-size: var(--font-size-xl);
   }
   .button10 {
-    padding: var(--padding-xl) 0 var(--padding-xl) var(--padding-21xl);
+    padding: var(--padding-xl) var(--padding-21xl);
     box-sizing: border-box;
   }
   .ctaContent {
@@ -2260,10 +2240,6 @@
     flex-direction: column;
     gap: var(--gap-45xl);
   }
-  .contact {
-    padding: var(--padding-45xl) 0;
-    box-sizing: border-box;
-  }
   .ctaChild {
     width: 100%;
     height: 320px;
@@ -2359,7 +2335,7 @@
 @media screen and (max-width: 480px) {
   .heroImgIcon {
     width: 100%;
-    height: 400px;
+    height:50vh;
     right: -35%;
   }
   .logo1Icon {
@@ -2659,11 +2635,6 @@
   }
   .partnerName2 {
     gap: var(--gap-5xs);
-  }
-  .contact {
-    padding-top: var(--padding-21xl);
-    padding-bottom: var(--padding-21xl);
-    box-sizing: border-box;
   }
   .ctaChild {
     width: 100%;
