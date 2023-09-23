@@ -63,12 +63,18 @@
   padding: var(--padding-xl) var(--padding-21xl);
   background-color: var(--yellow-main);
   justify-content: center;
+  box-sizing: border-box;
+  transition: 0.2s ease;
+  border: 2px solid var(--yellow-main);
+
 }
 .button:hover {
   background-color: transparent;
+  color: var(--light-text);
   border: 2px solid var(--light-text);
-  box-sizing: border-box;
-  transition: 0.3 s ease;
+}
+.button:hover>.speakWithMe {
+color: var(--light-text);
 }
 .navLinks {
   margin: 0;
@@ -96,11 +102,14 @@
   align-items: center;
   justify-content: space-between;
 }
-.topRatedRealtorContainer1 {
-  line-break: anywhere;
-  width: 100%;
+.h1Span {
+  background: linear-gradient(90deg, #C98E1D 0%, #EFCF8F 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .topRatedRealtorContainer {
+  display: block;
   margin: 0;
   font-size: inherit;
   line-height: 110%;
@@ -113,7 +122,6 @@
 .topRatedRealtorContainer {
   position: relative;
   letter-spacing: 0.02em;
-  display: flex;
   align-items: center;
 }
 .letMeBe {
@@ -128,8 +136,8 @@
   color: var(--dark-text);
   text-align: center;
   justify-content: center;
-  width: 127px;
-  flex-shrink: 0;
+  transition: 0.2s ease;
+
 }
 .vectorIcon {
   position: relative;
@@ -148,13 +156,25 @@
   background-color: var(--dark-bg);
   padding: var(--padding-xl);
   gap: 3px;
+  transition: 0.2s ease;
 }
 .button1 {
   cursor: pointer;
   padding: 0 0 0 var(--padding-31xl);
   background-color: transparent;
-  background: linear-gradient(90deg, #c98e1d, #ecc579);
+  background: linear-gradient(90deg, #C98E1D, #ecc579);
   gap: 50px;
+
+}
+.button1:hover {
+  background:transparent;
+  color: var(--light-text);
+}
+.button1:hover>.arrow {
+  background-color: var(--yellow-main);
+}
+.button1:hover>.letsTalk {
+  color: var(--light-text);
 }
 .heroText {
   display: flex;
@@ -583,22 +603,19 @@
   color: var(--dark-text);
 }
 .vectorIcon2,
-.vectorIcon3 {
-  position: absolute;
-  top: -33px;
-  left: -21px;
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
   width: 24px;
   height: 36px;
-}
-.vectorIcon3 {
-  left: -42px;
 }
 .arrows {
   position: relative;
   width: 39px;
   height: 30px;
-  transform: rotate(-180deg);
-  transform-origin: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .button8 {
   background-color: var(--yellow-main);
@@ -609,21 +626,14 @@
   align-items: center;
   justify-content: center;
 }
-.vectorIcon4,
-.vectorIcon5 {
-  position: absolute;
-  top: -3px;
-  left: -3px;
-  width: 24px;
-  height: 36px;
-}
-.vectorIcon5 {
-  left: 18px;
-}
+
 .arrows1 {
   position: relative;
   width: 39px;
   height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .button9,
 .featuredArrowsWrap {
@@ -1540,7 +1550,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-81xl);
+  gap: 80px;
 }
 .footer {
   flex-direction: column;
@@ -1762,19 +1772,19 @@
   }
   .arrows,
   .vectorIcon2,
-  .vectorIcon3 {
+  .vectorIcon3,
+  .vectorIcon4,
+  .vectorIcon5 {
     width: 39px;
     height: 30px;
   }
-  .arrows {
-    transform: rotate(-180deg);
-  }
+
   .button8 {
     transform: rotate(0deg);
   }
   .button8,
   .button9 {
-    padding: var(--padding-xl);
+    padding: 16px;
     box-sizing: border-box;
   }
   .container2 {
@@ -1978,7 +1988,7 @@
     height: 690px;
     position: absolute;
     bottom: 0;
-    right: -10%;
+    right: -25%;
     z-index: 1;
   }
   .navLinks {
@@ -1989,9 +1999,8 @@
   }
   .topRatedRealtorContainer {
     font-size: var(--font-size-37xl);
-    width: 500px;
-    word-break: break-all;
-  }
+    width: 100%;
+    }
   .letMeBe {
     font-size: var(--font-size-3xl);
     width: 50%;
@@ -2708,10 +2717,5 @@
     padding-top: var(--padding-21xl);
     padding-bottom: var(--padding-21xl);
     box-sizing: border-box;
-  }
-}
-@media screen and (min-width: 1600px) {
-  .topRatedRealtorContainer {
-    font-size: var(--font-size-61xl);
   }
 }
