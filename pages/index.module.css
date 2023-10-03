@@ -15,6 +15,7 @@
   bottom: 0;
   left: 0;
 }
+
 .yellow50Icon {
   width: 100%;
   opacity: 0.25;
@@ -39,6 +40,12 @@
   position: relative;
   width: 180px;
   object-fit: cover;
+}
+.index_h1Span__rU5X8 {
+  background: linear-gradient(90deg, #C98E1D 0%, #EFCF8F 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .buyers,
 .speakWithMe {

@@ -28,7 +28,7 @@ const REBUILD = () => {
             <img className={styles.hamburgerIcon} alt="" src="/hamburger.svg" />
           </header>
           <div className={styles.heroText}>
-            <h1 className={styles.topRatedRealtorContainer}> <span className={styles.h1Span}></span> Realtor in New York
+            <h1 className={styles.topRatedRealtorContainer}> <span className={styles.h1Span}>TOP RATED</span> Realtor in New York
             </h1>
             <p className={styles.letMeBe}>
               Let me be your trusted guide in finding the best properties New
