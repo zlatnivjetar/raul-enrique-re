@@ -1421,6 +1421,8 @@ background-clip: text;
 }
 .ellipseParent {
   text-decoration: none;
+  margin-top: 3px;
+  margin-right: 6px;
   position: relative;
   width: 60px;
   height: 60px;
@@ -2348,8 +2350,9 @@ background-clip: text;
 @media screen and (max-width: 480px) {
   .heroImgIcon {
     width: 100%;
-    height:50vh;
+    height:60vh;
     right: -35%;
+    bottom: -10%;
   }
   .logo1Icon {
     width: 140px;
@@ -2405,7 +2408,7 @@ background-clip: text;
     gap: var(--gap-21xl);
     align-items: center;
     justify-content: center;
-    padding-bottom: 50%;
+    padding-bottom: 10%;
     box-sizing: border-box;
   }
   .realEstateIs {
