@@ -1101,7 +1101,7 @@ background-clip: text;
 .submit {
   cursor: pointer;
   border: 3px solid var(--dark-text);
-  padding: var(--padding-xl) var(--padding-21xl);
+  padding: 16px 32px;
   background-color: transparent;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -1506,20 +1506,18 @@ background-clip: text;
   line-height: 130%;
 }
 .vectorIcon6 {
-  align-self: stretch;
+  align-self: center;
   flex: 1;
   position: relative;
-  max-width: 100%;
+  width: 24px;
+  height: 24px;
   overflow: hidden;
-  max-height: 100%;
 }
 .vectorWrapper {
   border-radius: 0 var(--br-8xs) var(--br-8xs) 0;
   background-color: var(--yellow-main);
   border-left: 2px solid var(--light-text);
   box-sizing: border-box;
-  width: 68.57px;
-  height: 70px;
   display: flex;
   flex-direction: column;
   padding: var(--padding-xl);
@@ -2264,7 +2262,7 @@ background-clip: text;
   }
   .ctaItem {
     width: 100%;
-    height: 360px;
+    height: 220px;
   }
   .ctaTitle {
     padding-top: 0;
@@ -2281,7 +2279,7 @@ background-clip: text;
     flex-direction: column;
     gap: var(--gap-21xl);
     padding-top: var(--padding-21xl);
-    padding-bottom: var(--padding-21xl);
+    padding-bottom: 0;
   }
   .container7 {
     flex: 1;
@@ -2313,9 +2311,8 @@ background-clip: text;
     font-size: var(--font-size-base);
   }
   .vectorWrapper {
-    height: 68px;
     gap: var(--gap-0);
-    padding: var(--padding-xl);
+    padding: 16px;
     box-sizing: border-box;
   }
   .email1 {
@@ -2359,6 +2356,34 @@ background-clip: text;
     align-self: stretch;
     height: auto;
   }
+  .mcafeeIcon
+  {
+    width: 100px;
+    height: unset;
+    align-self: center;
+  }
+  .featureCard {
+    width: 100%;
+  }
+  .featuredContent {
+    overflow: visible;
+  }
+  .button8,
+  .button9 {
+    padding: 12px;
+  }
+  .arrows1,
+  .arrows {
+    width: 30px;
+  }
+  .vectorIcon2,
+  .vectorIcon3,
+  .vectorIcon4,
+  .vectorIcon5 {
+    width: 24px;
+    height: 21px;
+  }
+
   .letMeBe,
   .topRatedRealtorContainer {
     text-align: center;
@@ -2661,10 +2686,9 @@ background-clip: text;
   .ctaItem {
     align-self: stretch;
     width: auto;
-    top: 0;
   }
   .speakWithMe4 {
-    font-size: var(--font-size-lg);
+    font-size: 16px;
     text-align: center;
     flex: 1;
   }
@@ -2675,8 +2699,7 @@ background-clip: text;
     gap: var(--gap-0);
     align-items: center;
     justify-content: space-between;
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
+    padding: 16px 32px;
     box-sizing: border-box;
   }
   .ctaContent {
